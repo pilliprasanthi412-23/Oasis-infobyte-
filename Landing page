@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartFit Landing Page</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+    background:#f4f7fb;
+    color:#333;
+}
+
+/* Navigation */
+nav{
+    position:sticky;
+    top:0;
+    background:#1e3a8a;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:1000;
+}
+
+.logo{
+    color:#fff;
+    font-size:26px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+}
+
+nav ul li a:hover{
+    color:#fbbf24;
+}
+
+/* Hero */
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center
